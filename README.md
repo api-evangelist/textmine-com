@@ -1,4 +1,4 @@
-# textmine-com
+# TextMine
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,120 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-textmine-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://textmine.com/
+TextMine provides AI‑powered document data extraction and automation for regulated industries. Their platform automates manual extraction of critical business documents, offering traceable context, audit logs, and compliance controls. Serving financial services, legal teams, and procurement, TextMine helps streamline KYC, contract intelligence, and risk advisory workflows with high accuracy and security.
+
+**Areas:** AI · Document-Processing · Financial-Services · Compliance · Automation
+
+## TextMine on APIs.io
+
+Everything profiled for TextMine is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/textmine-com/](https://apis.io/providers/textmine-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [TextMine API](https://apis.io/apis/textmine-com/textmine-api/) — Public API V3 for TextMine providing document extraction and automation.
+- [TextMine API](https://apis.io/apis/textmine-com/textmine-com-api/) — TextMine API as documented publicly. Contract generated from the documentation by API Evangelist (2026-11-25); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [DeleteV3AlertsAlertidResponse](https://apis.io/schemas/textmine-com/textmine-com-delete-v3-alerts-alertid-response/)
+- [DeleteV3VaultsVaultidResponse](https://apis.io/schemas/textmine-com/textmine-com-delete-v3-vaults-vaultid-response/)
+- [GetV3TasksResponse](https://apis.io/schemas/textmine-com/textmine-com-get-v3-tasks-response/)
+- [PatchV3AlertsAlertidRequest](https://apis.io/schemas/textmine-com/textmine-com-patch-v3-alerts-alertid-request/)
+- [PostV3AgentsRequest](https://apis.io/schemas/textmine-com/textmine-com-post-v3-agents-request/)
+- [PostV3TasksRequest](https://apis.io/schemas/textmine-com/textmine-com-post-v3-tasks-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Textmine Com Context](https://apis.io/jsonld/textmine-com/textmine-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [TextMine API Rules](https://apis.io/rules/textmine-com/textmine-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [TextMine Authentication](https://apis.io/security/textmine-com/textmine-com-authentication/)
+- [TextMine Domain Security](https://apis.io/security/textmine-com/textmine-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://textmine.com/)
+- [Documentation](https://docs.textmine.com)
+- [Getting started](https://developers.textmine.com/docs/getting-started)
+- [Support](https://help.textmine.com/en/)
+- [Changelog](https://developers.textmine.com/changelog)
+- [Blog](https://textmine.com/content/blog)
+- [Security](https://textmine.com/products/security)
+- [Terms of service](https://textmine.com/legal-pages/terms-and-conditions)
+- [Privacy policy](https://textmine.com/legal-pages/privacy-policy)
+- [Status](https://status.textmine.com)
+
+## API Evangelist rating
+
+**Kin Score 50.1** — developing · rubric 0.28.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 69.6 |
+| Contract quality | 56.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 38.1 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 17.0 |
+
+**Agent readiness 48.6** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | derived (partial credit) |
+| Error Semantics | — |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | documented (partial credit) |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/textmine-com/](https://apis.io/providers/textmine-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for TextMine: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/textmine-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
